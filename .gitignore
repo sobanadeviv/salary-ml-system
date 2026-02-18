@@ -1,6 +1,7 @@
 venv/
 __pycache__/
 *.pyc
-models/
+models/*
+!models/salary_model.pkl
 .env
 data/
