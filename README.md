@@ -2,8 +2,10 @@
 
 End-to-end ML project predicting software developer salaries.
 
-## 🚀 Live API
-https://your-render-url.onrender.com/docs
+## 🚀 Live API (Swagger Docs)
+https://salary-ml-system.onrender.com/docs
+
+---
 
 ## 🛠 Tech Stack
 - Python
@@ -12,10 +14,14 @@ https://your-render-url.onrender.com/docs
 - FastAPI
 - Render (Deployment)
 
+---
+
 ## 📊 Model
 - Linear Regression
 - Log transformation
 - Cross-validated R² ≈ 0.43
+
+---
 
 ## 📦 Features Used
 - YearsCodePro
@@ -25,7 +31,10 @@ https://your-render-url.onrender.com/docs
 - DevType
 - OrgSize
 
+---
+
 ## ▶️ Run Locally
 
+```bash
 pip install -r requirements.txt
 uvicorn app:app --reload
